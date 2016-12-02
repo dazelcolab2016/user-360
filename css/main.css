@@ -1,0 +1,276 @@
+*{outline: 1px solid rgba(255,0,0,0.4);}
+body
+{
+	font-family: Lato;
+}
+/*--------- Header */
+header
+{
+	background: url(../image/large.jpg);
+	background-size: cover;
+	color: #FFF;
+}
+header a{
+	color: #FFF;
+}
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus{
+	text-decoration: none;
+	outline: none;
+	background: #FFF;
+}
+
+#main-navigation{
+	z-index: 1;
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.img-logo{
+	margin-top: 10px;
+}
+.frase{
+	margin: 165px 0;
+	text-align: center;
+}
+.sombra{
+	background: rgba(42, 46, 54, 0.72);
+	padding-top: 10px ;
+}
+.header-banner{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
+}
+.header-banner h3{
+	margin: 0;
+}
+.banner-button{
+	background: none;
+	border:1px solid #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
+
+}
+.icon-container{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 60px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 200px;
+	color: skyblue;
+}
+
+/*------------------------ Separador vertical */
+.vertical-divider{
+	border-top:1px solid #CCC;
+	text-align: center;
+}
+.vertical-divider img{
+	position: absolute;
+	z-index: 1;
+	transform: translateY(-50%) translateX(-50%);
+}
+/*- END Separador vertical */
+
+.text-skyblue{
+    color:skyblue;
+}
+.text-blue{
+    color:blue;
+}
+.text-blakblue{
+    color:midnightblue;
+    text-align: center
+}
+.text-darkblue{
+    color:darkblue
+}
+h3 img{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.ejemplo h3{
+    text-align: center;
+}
+.ejemplo p{
+    text-align:left;
+}
+.margen div{
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding-bottom: 450px;
+}
+.flecha {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.services, .ejemplo{
+	margin: 100px 0;
+}
+
+.pasos .row{
+	background: url(../image/sec-2.jpg) left center;
+	background-size: contain;
+    background-color: rgba(94, 92, 111, 0.76);
+}
+.pasos .col-pasos-info{
+	background: #FFF;
+}
+.pasos .pasos-info{
+	background: #FFF;
+	padding: 5px;
+	margin: 0 0 0 30px;
+}
+.step1, .step2, .step3{
+	position: relative;
+}
+.step3{
+	margin-bottom: 50px;
+}
+
+.icon-blue{
+	border-radius:40px;
+	background: #299ff4;
+	padding: 10px;
+	font-size: 25px;
+	color: #FFF;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	margin-left: -75px;
+}
+.separador{
+    margin-bottom: 100px;
+}
+.banner-imagen2{
+background-image: url(../image/banner.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+.argumento h3 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.argumento p{
+    text-align: left;
+    
+}
+.argumento ul {
+    padding: 14px;
+}
+.margen2{
+    padding-left: 100px;
+}
+.footer-banner{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
+    color:white;
+}
+.footer-banner h3{
+	margin: 0;
+}
+
+.footer{
+    background-color: #2a3541;
+    color: #fff;
+}
+
+.element-footer{
+    color: skyblue;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 0px;
+    list-style: none;
+}
+.footer span {
+   
+    font-size: 10px;
+    margin-left: 390px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+}
+footer p,a{
+    text-align: left;
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px)
+{
+	.banner-info{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.frase{
+		margin: 60px 0;
+	}
+	.frase h2{
+		font-size: 20px;
+	}
+    .margen2{
+    padding-left: 0px;
+    }
+    .element-footer{
+        text-align: center;
+    }
+}
+@media screen and (max-width:999px)
+{
+	.icon-blue
+	{
+		margin-left: -65px;
+
+	}
+	.pasos .col-pasos-info
+	{
+		background: none;
+	}
+	.pasos .row{
+		background-size: cover;
+	}
+	.pasos .pasos-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.sombra .row>div
+	{
+		text-align: center;
+	}
+	.sombra .row>div .img-responsive
+	{
+		display: inline-block;
+	}
+	.desktop-menu
+	{
+		text-align: center;
+	}
+    .margen2{
+    padding-left: 0px;
+    }
+}
